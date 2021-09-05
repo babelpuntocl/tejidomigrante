@@ -22814,7 +22814,6 @@ jquery__WEBPACK_IMPORTED_MODULE_0___default()(document).ready(function () {
     fadeSpeed: 500,
     pauseSpeed: 7500
   });
-  jquery__WEBPACK_IMPORTED_MODULE_0___default()(".draggable-element").draggable();
 });
 
 /***/ }),
