@@ -1,0 +1,154 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAMA tejido migrante</title>
+    <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <script src="https://unpkg.com/hydra-synth"></script>
+  </head>
+  <body id="index">
+
+    <div class="page-loader">
+	<div class="spinner"></div>
+	<div class="txt">tramando...</div>
+</div>
+
+<div id="draggable-logo" class="draggable-element">
+    <a data-open="nosotrxs-reveal">
+      <p><small>Nosotrxs</small></p>
+      <img src="assets/img/trama-1.svg">
+    </a>
+  </div>
+  <div id="draggable-flower" class="draggable-element">
+    <a data-open="acciones-reveal">
+      <p><small>30 de Septiembre <br/>Día contra el racismo</small></p>
+      <img src="assets/img/flor-1.png">
+    </a>
+  </div>
+  <div id="draggable-expulsiones" class="draggable-element">
+    <a href="https://www.facebook.com/redmigranteschile/videos/232758308323599/" target="_blank">
+      <img src="assets/img/expulsiones-1.png">
+      <p><small>No + Expulsiones <br/>Colectivas</small></p>
+    </a>
+  </div>
+  <div id="draggable-radio" class="draggable-element">
+    <a href="https://open.spotify.com/show/5yJUVBsKnwWThqmidjzBcT" target="_blank">
+      <img src="assets/img/radio.png">
+      <p><small>Radio Trama</small></p>
+    </a>
+  </div>
+  <div id="footer-menu" class="show-for-medium">
+    <ul>
+      <li><a class="link-resaltado" href="mailto:tejidomigrante@gmail.com">tejidomigrante@gmail.com</a></li>
+      <li><a href="https://www.facebook.com/tejidomigrante/" target="_blank"><i class="ri-facebook-circle-line"></i></a></li>
+      <li><a href="https://www.instagram.com/tejidomigrante/" target="_blank"><i class="ri-instagram-line"></i></a></li>
+    </ul>
+  </div>
+  <div class="grid-x align-middle" id="index-content">
+    <div class="large-12 cell text-center" id="index-content-cell">
+      <!-- <div id="logo-1">
+        <img src="etc/img/trama-1.png">
+      </div> -->
+      <h1 id="textAnimator">
+        <div>Jistis pou Joane</div>
+        <div>Justicia para Joane</div>
+        <div>Justice pour Joane</div>
+        <!-- <div>为乔安伸张正义</div> -->
+        <div>Justice for Joane</div>
+        <div>Norzugugepe Joane Florvil</div>
+        <div>Taripak Joanepa</div>
+      </h1>
+      <h2 class="h5">Wanament 1989 — Santiago 2017</h2>
+      <p>
+        <a href="https://calendar.google.com/calendar/embed?src=j0228r58j2ajcklhs95q8adieo%40group.calendar.google.com&ctz=America%2FSantiago"
+        target="_blank" class="button hollow rounded">Ver Calendario de Actividades</a>
+      </p>
+      <ul class="vertical menu align-center show-for-small-only">
+        <li><a class="link-resaltado" data-open="nosotrxs-reveal"><i class="ri-eye-line"></i> <b>Acerca de Trama</b></a></li>
+        <li><a class="link-resaltado" data-open="acciones-reveal"><i class="ri-flag-fill"></i> <b>Campaña de 30 a 30</b></a></li>
+      </ul>
+      <div class="select-menu show-for-small-only">
+        <form name="nav">
+          <select name="SelectURL" class="selectpicker" onchange="window.open(document.nav.SelectURL.options[document.nav.SelectURL.selectedIndex].value)">
+               <option value="" selected="">Contáctanos &#8617;</option>
+               <option value="https://www.facebook.com/tejidomigrante/">Facebook</option>
+               <option value="https://www.instagram.com/tejidomigrante/">Instagram</option>
+               <option value="mailto:tejidomigrante@gmail.com">tejidomigrante@gmail.com</option>
+          </select>
+         </form>
+      </div>
+      <!-- <div class="grid-x">
+        <div class="large-4 large-offset-4 cell">
+          <h2 class="h5">de 30 a 30 contra el racismo</h2>
+          <p><small><b>Migramos</b> para florecer. <b>Luchamos</b> para no desaparecer.</small></p>
+          <a href="#">ver actividades</a>
+        </div>
+      </div> -->
+    </div>
+  </div>
+
+
+  <div class="reveal full" id="nosotrxs-reveal" data-reveal>
+    <div class="grid-x">
+      <div class="small-10 small-offset-1 medium-10 medium-offset-0 cell">
+        <p><span>TRAMA, Tejido Migrante es una <b>organización de
+        colectivos y organizaciones pro migrantes</b> que,
+        desde el Wallmapu y La Araucanía, pensamos y
+        vivimos la <b>migración como un derecho humano</b> que
+        debe ser consagrado.</span></p>
+        <p><span>Consideramos que la migración es una oportunidad para construir <b>un
+        territorio que se cimente sobre la interculturalidad</b>,
+        entendida esta como la necesidad de disminuir y
+        eliminar las brechas e inequidades sociales
+        existentes, <b>cuestionándonos las relaciones de poder
+        y subordinación</b> que se dan entre pueblos.</span></p>
+      </div>
+    </div>
+    <button class="close-button" data-close aria-label="Close modal" type="button">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+  <div class="reveal full" id="acciones-reveal" data-reveal>
+    <div class="grid-x">
+      <div class="small-10 small-offset-1 medium-10 medium-offset-0 cell">
+        <p>Cada 30 de agosto se conmemora el <b>Día Internacional de las personas
+      Detenidas Desaparecidas</b>, fecha que además coincide con la detención
+      en 2017 de <b>Joane Florvil</b>, joven madre haitiana, injustamente acusada
+      y torturada, <b>muriendo un mes después, en manos del Estado de Chile</b>.</p>
+      <p>Un conjunto de organizaciones en <b>Chile y Wallmapu</b> llevamos adelante este 2021
+      la <b>Campaña contra el racismo De 30 a 30</b>, convocando durante
+      un mes a distintas actividades orientadas a la <b>construcción de una sociedad
+      antirracista</b>.</p>
+      <ul class="menu">
+        <li><a class="button hollow rounded" href="https://calendar.google.com/calendar/embed?src=j0228r58j2ajcklhs95q8adieo%40group.calendar.google.com&ctz=America%2FSantiago"
+        target="_blank">Ver Calendario de Actividades</a></li>
+      </ul>
+    </div>
+  </div>
+<!-- <img src="etc/img/joane-1.png"> -->
+    <button class="close-button" data-close aria-label="Close modal" type="button">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation-essential/6.2.2/js/vendor/what-input.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.7.1/js/foundation.min.js" integrity="sha512-mf3jCRer+LpwZqdk7UrP6nNBNt/eAiobVBIzu/TadHzRYk6G++e96T6K5YRB7hqI4gD2gx2FFjI7vvvDn2WYIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="assets/js/app.js"></script>
+    <!-- <script>
+      // create a new hydra-synth instance
+      var hydra = new Hydra({ detectAudio: false })
+      osc(4, 0.1, 1.2).out()
+</script> -->
+    <script>
+
+  </script>
+  </body>
+</html>
